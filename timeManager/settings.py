@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'teachers_schedule',
+    'import_export'
 ]
 
 MIDDLEWARE = [
