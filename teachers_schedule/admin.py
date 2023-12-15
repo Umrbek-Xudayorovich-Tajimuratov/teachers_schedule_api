@@ -7,7 +7,7 @@ class TeacherScheduleAdmin(ImportExportModelAdmin, admin.ModelAdmin):
     list_display = ('teacher_name', 'group', 'subject')
     search_fields = ('teacher_name__contains','group__contains','subject__contains')
     fieldsets = (
-        ('Teacher Informations', {
+        ('Teacher Information', {
             'fields': ('teacher_name',)
         }),
         ('Group Details', {
